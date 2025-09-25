@@ -1,3 +1,4 @@
+# STACK QUESTION
 #  UR pushes ["Assignment1", "Assignment2", "Assignment3"].Undo one. Which is top?
 UR= []
 UR.append('assignment 1')
@@ -24,3 +25,14 @@ Push.pop()
 Push.pop()
 print(Push)
 print('3.The bottom will be ' + Push[-1])
+# QUEUE QUESTION
+from collections import deque
+# At RRA, 5 clients queue. After 1 served, who is next?
+RRA= deque(['1','2','3','4','5'])
+RRA.popleft()
+print(RRA)
+next=RRA[0]
+print('1.the next will be ' + next[-1])
+# At Airtel, 6 customers queue. Who is last?
+airtel= deque(['1','2','3','4','5','6'])
+print('2.The last is  '+ airtel[-1])
