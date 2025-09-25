@@ -36,3 +36,5 @@ print('1.the next will be ' + next[-1])
 # At Airtel, 6 customers queue. Who is last?
 airtel= deque(['1','2','3','4','5','6'])
 print('2.The last is  '+ airtel[-1])
+# Queue vs stack for traffic lights at junction. Which fits?
+print('in traffic light its first come first come so the STACK cant perform because it works as Last in First our, so QUEUE is best suit because it can first come first serve as it works in traffic lights ')
